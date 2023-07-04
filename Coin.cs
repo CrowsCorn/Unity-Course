@@ -18,6 +18,7 @@ public class Coin : MonoBehaviour
         {
             other.GetComponent<Player>().addScore(1);
             Destroy(gameObject);
+            Debug.Log("you Hit Me");
 
         }
     }
